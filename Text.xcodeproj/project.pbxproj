@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C18DB741A22B749002E76BF /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C18DB731A22B749002E76BF /* libxml2.2.dylib */; };
+		7C20CFFC1999E3A2008B5351 /* File.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C20CFFE1999E3A2008B5351 /* File.strings */; };
 		7C31373719932966001838A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C31373619932966001838A2 /* Foundation.framework */; };
 		7C31373919932966001838A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C31373819932966001838A2 /* CoreGraphics.framework */; };
 		7C31373B19932966001838A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C31373A19932966001838A2 /* UIKit.framework */; };
@@ -19,6 +21,7 @@
 		7C31375219932966001838A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C31373A19932966001838A2 /* UIKit.framework */; };
 		7C31375A19932966001838A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C31375819932966001838A2 /* InfoPlist.strings */; };
 		7C31375C19932966001838A2 /* baiduTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C31375B19932966001838A2 /* baiduTests.m */; };
+		7C3137671993297F001838A2 /* JBaiDuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3137661993297F001838A2 /* JBaiDuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,22 +35,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7C31373319932966001838A2 /* baidu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baidu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C18DB731A22B749002E76BF /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		7C20CFFD1999E3A2008B5351 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/File.strings; sourceTree = "<group>"; };
+		7C31373319932966001838A2 /* Text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Text.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C31373619932966001838A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7C31373819932966001838A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7C31373A19932966001838A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		7C31373E19932966001838A2 /* baidu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "baidu-Info.plist"; sourceTree = "<group>"; };
+		7C31373E19932966001838A2 /* Text-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Text-Info.plist"; sourceTree = "<group>"; };
 		7C31374019932966001838A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7C31374219932966001838A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7C31374419932966001838A2 /* baidu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "baidu-Prefix.pch"; sourceTree = "<group>"; };
+		7C31374419932966001838A2 /* Text-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Text-Prefix.pch"; sourceTree = "<group>"; };
 		7C31374519932966001838A2 /* JAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAppDelegate.h; sourceTree = "<group>"; };
 		7C31374619932966001838A2 /* JAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAppDelegate.m; sourceTree = "<group>"; };
 		7C31374819932966001838A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7C31374E19932966001838A2 /* baiduTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baiduTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C31374E19932966001838A2 /* TextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C31374F19932966001838A2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		7C31375719932966001838A2 /* baiduTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "baiduTests-Info.plist"; sourceTree = "<group>"; };
+		7C31375719932966001838A2 /* 1212Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "1212Tests-Info.plist"; sourceTree = "<group>"; };
 		7C31375919932966001838A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7C31375B19932966001838A2 /* baiduTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baiduTests.m; sourceTree = "<group>"; };
+		7C3137651993297F001838A2 /* JBaiDuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBaiDuViewController.h; sourceTree = "<group>"; };
+		7C3137661993297F001838A2 /* JBaiDuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBaiDuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C18DB741A22B749002E76BF /* libxml2.2.dylib in Frameworks */,
 				7C31373919932966001838A2 /* CoreGraphics.framework in Frameworks */,
 				7C31373B19932966001838A2 /* UIKit.framework in Frameworks */,
 				7C31373719932966001838A2 /* Foundation.framework in Frameworks */,
@@ -87,8 +95,8 @@
 		7C31373419932966001838A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C31373319932966001838A2 /* baidu.app */,
-				7C31374E19932966001838A2 /* baiduTests.xctest */,
+				7C31373319932966001838A2 /* Text.app */,
+				7C31374E19932966001838A2 /* TextTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +104,7 @@
 		7C31373519932966001838A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7C18DB731A22B749002E76BF /* libxml2.2.dylib */,
 				7C31373619932966001838A2 /* Foundation.framework */,
 				7C31373819932966001838A2 /* CoreGraphics.framework */,
 				7C31373A19932966001838A2 /* UIKit.framework */,
@@ -109,6 +118,8 @@
 			children = (
 				7C31374519932966001838A2 /* JAppDelegate.h */,
 				7C31374619932966001838A2 /* JAppDelegate.m */,
+				7C3137651993297F001838A2 /* JBaiDuViewController.h */,
+				7C3137661993297F001838A2 /* JBaiDuViewController.m */,
 				7C31374819932966001838A2 /* Images.xcassets */,
 				7C31373D19932966001838A2 /* Supporting Files */,
 			);
@@ -118,10 +129,11 @@
 		7C31373D19932966001838A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7C31373E19932966001838A2 /* baidu-Info.plist */,
+				7C31373E19932966001838A2 /* Text-Info.plist */,
 				7C31373F19932966001838A2 /* InfoPlist.strings */,
 				7C31374219932966001838A2 /* main.m */,
-				7C31374419932966001838A2 /* baidu-Prefix.pch */,
+				7C31374419932966001838A2 /* Text-Prefix.pch */,
+				7C20CFFE1999E3A2008B5351 /* File.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,7 +150,7 @@
 		7C31375619932966001838A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7C31375719932966001838A2 /* baiduTests-Info.plist */,
+				7C31375719932966001838A2 /* 1212Tests-Info.plist */,
 				7C31375819932966001838A2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -147,9 +159,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C31373219932966001838A2 /* baidu */ = {
+		7C31373219932966001838A2 /* Text */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C31375F19932966001838A2 /* Build configuration list for PBXNativeTarget "baidu" */;
+			buildConfigurationList = 7C31375F19932966001838A2 /* Build configuration list for PBXNativeTarget "Text" */;
 			buildPhases = (
 				7C31372F19932966001838A2 /* Sources */,
 				7C31373019932966001838A2 /* Frameworks */,
@@ -159,14 +171,14 @@
 			);
 			dependencies = (
 			);
-			name = baidu;
+			name = Text;
 			productName = baidu;
-			productReference = 7C31373319932966001838A2 /* baidu.app */;
+			productReference = 7C31373319932966001838A2 /* Text.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7C31374D19932966001838A2 /* baiduTests */ = {
+		7C31374D19932966001838A2 /* TextTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C31376219932966001838A2 /* Build configuration list for PBXNativeTarget "baiduTests" */;
+			buildConfigurationList = 7C31376219932966001838A2 /* Build configuration list for PBXNativeTarget "TextTests" */;
 			buildPhases = (
 				7C31374A19932966001838A2 /* Sources */,
 				7C31374B19932966001838A2 /* Frameworks */,
@@ -177,9 +189,9 @@
 			dependencies = (
 				7C31375419932966001838A2 /* PBXTargetDependency */,
 			);
-			name = baiduTests;
+			name = TextTests;
 			productName = baiduTests;
-			productReference = 7C31374E19932966001838A2 /* baiduTests.xctest */;
+			productReference = 7C31374E19932966001838A2 /* TextTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -192,12 +204,15 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
+					7C31373219932966001838A2 = {
+						DevelopmentTeam = 7EBJL2TX8M;
+					};
 					7C31374D19932966001838A2 = {
 						TestTargetID = 7C31373219932966001838A2;
 					};
 				};
 			};
-			buildConfigurationList = 7C31372E19932966001838A2 /* Build configuration list for PBXProject "baidu" */;
+			buildConfigurationList = 7C31372E19932966001838A2 /* Build configuration list for PBXProject "Text" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -209,8 +224,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C31373219932966001838A2 /* baidu */,
-				7C31374D19932966001838A2 /* baiduTests */,
+				7C31373219932966001838A2 /* Text */,
+				7C31374D19932966001838A2 /* TextTests */,
 			);
 		};
 /* End PBXProject section */
@@ -222,6 +237,7 @@
 			files = (
 				7C31374119932966001838A2 /* InfoPlist.strings in Resources */,
 				7C31374919932966001838A2 /* Images.xcassets in Resources */,
+				7C20CFFC1999E3A2008B5351 /* File.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +258,7 @@
 			files = (
 				7C31374319932966001838A2 /* main.m in Sources */,
 				7C31374719932966001838A2 /* JAppDelegate.m in Sources */,
+				7C3137671993297F001838A2 /* JBaiDuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,12 +275,20 @@
 /* Begin PBXTargetDependency section */
 		7C31375419932966001838A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7C31373219932966001838A2 /* baidu */;
+			target = 7C31373219932966001838A2 /* Text */;
 			targetProxy = 7C31375319932966001838A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		7C20CFFE1999E3A2008B5351 /* File.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C20CFFD1999E3A2008B5351 /* en */,
+			);
+			name = File.strings;
+			sourceTree = "<group>";
+		};
 		7C31373F19932966001838A2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -299,7 +324,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lin Li (CTD7Z778GH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lin Li (CTD7Z778GH)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -315,8 +341,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "84435171-dda7-43d2-82ae-3d818fbad105";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -337,7 +364,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lin Li (CTD7Z778GH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lin Li (CTD7Z778GH)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -347,7 +375,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "84435171-dda7-43d2-82ae-3d818fbad105";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -358,10 +387,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lin Li (CTD7Z778GH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lin Li (CTD7Z778GH)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "baidu/baidu-Prefix.pch";
-				INFOPLIST_FILE = "baidu/baidu-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "baidu/Text-Prefix.pch";
+				INFOPLIST_FILE = "baidu/Text-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = Text;
+				PROVISIONING_PROFILE = "84435171-dda7-43d2-82ae-3d818fbad105";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -371,10 +405,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lin Li (CTD7Z778GH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lin Li (CTD7Z778GH)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "baidu/baidu-Prefix.pch";
-				INFOPLIST_FILE = "baidu/baidu-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "baidu/Text-Prefix.pch";
+				INFOPLIST_FILE = "baidu/Text-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = Text;
+				PROVISIONING_PROFILE = "84435171-dda7-43d2-82ae-3d818fbad105";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -394,8 +433,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "baiduTests/baiduTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "baiduTests/1212Tests-Info.plist";
+				PRODUCT_NAME = TextTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -412,8 +451,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "baidu/baidu-Prefix.pch";
-				INFOPLIST_FILE = "baiduTests/baiduTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "baiduTests/1212Tests-Info.plist";
+				PRODUCT_NAME = TextTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -422,7 +461,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7C31372E19932966001838A2 /* Build configuration list for PBXProject "baidu" */ = {
+		7C31372E19932966001838A2 /* Build configuration list for PBXProject "Text" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C31375D19932966001838A2 /* Debug */,
@@ -431,21 +470,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C31375F19932966001838A2 /* Build configuration list for PBXNativeTarget "baidu" */ = {
+		7C31375F19932966001838A2 /* Build configuration list for PBXNativeTarget "Text" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C31376019932966001838A2 /* Debug */,
 				7C31376119932966001838A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		7C31376219932966001838A2 /* Build configuration list for PBXNativeTarget "baiduTests" */ = {
+		7C31376219932966001838A2 /* Build configuration list for PBXNativeTarget "TextTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C31376319932966001838A2 /* Debug */,
 				7C31376419932966001838A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

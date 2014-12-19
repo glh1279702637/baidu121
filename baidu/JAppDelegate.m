@@ -7,7 +7,7 @@
 //
 
 #import "JAppDelegate.h"
-
+#import "JBaiDuViewController.h"
 @implementation JAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -15,6 +15,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    JBaiDuViewController *baidu=[[JBaiDuViewController alloc]init];
+    UINavigationController *navi=[[UINavigationController alloc]initWithRootViewController:baidu];
+    NSLog(@"%@/tmp",NSHomeDirectory());
+    self.window.rootViewController=navi;
     [self.window makeKeyAndVisible];
     return YES;
 }
